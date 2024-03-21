@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#F0F0f0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1, maximum-scale=5">
+
+    <title>Quicktab</title>
+
+    <meta name="description" content="Das was idealerweise bei Google steht">
+    <meta name="keywords" content="Keywords, für die Bing-Suche">
+    <meta name="robots" content="index, follow">
+
+    <script src="js/background.js"></script>
+    <script src="js/redirect.js"></script>
+    <script src="js/tiles.js"></script>
+
+    <link rel="stylesheet" href="css/quicktab.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/quicktab_favicon.png">
+</head>
+
+<body class="qt_header">
+    <div id="main">
+
+        <div id="header" class="search">
+            <img src="img/logo_quicktab.png" alt="Logo" id="qt_logo"/>
+            <form id="search-bar-form" class="search-bar-form">
+                <div class="search-bar input-decorator">
+                    <div class="search-bar-inner">
+                        <button type="submit" id="search-input-confirm">
+                            <img src="img/search.svg" alt="Search">
+                        </button>
+                        <input type="text" id="search-input" name="search-input"/>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="search2">
+
+        </div>
+        <div id="tiles"></div>
+    </div>
+    <div id="corner-links">
+        <a href="https://quicktab.org/terms/quicktab.html">Terms and Conditions</a>
+        <a href="https://quicktab.org/privacy/quicktab.html">Privacy Policy</a>
+        <a href="https://quicktab.org/contact-us/quicktab.html">Contact Us</a>
+    </div>
+</body>
+</html>

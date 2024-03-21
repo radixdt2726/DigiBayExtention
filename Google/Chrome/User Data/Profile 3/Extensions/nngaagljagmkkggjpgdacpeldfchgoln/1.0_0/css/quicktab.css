@@ -1,0 +1,169 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+html {
+    font-size: larger;
+    font-family: Roboto, sans-serif;
+    background-color: #F6F6F8;
+}
+
+#main {
+    margin: auto;
+    text-align: center;
+
+    padding-top: 30vh;
+}
+
+.search {
+    width: 30%;
+    /*margin: auto;*/
+    top: 200px;
+    left: 35%;
+    height: 166px;
+    position: absolute;
+    /* UI Properties */
+    z-index: 1000;
+}
+
+.search2 {
+    width: 35%;
+    top: 200px;
+    left: 32.5%;
+    height: 200px;
+    position: absolute;
+    /* UI Properties */
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 99px #000000BE;
+    border-radius: 12px;
+    opacity: 0.5;
+}
+
+#qt_logo {
+    transform: scale(80%);
+    max-width: 65%;
+}
+
+.search-bar-form {
+    /*padding-top: 1.5rem;*/
+}
+
+.search-bar {
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 100cm;
+    height: 2rem;
+}
+
+.search-bar-inner {
+    position: relative;
+    top: 60%;
+    transform: translateY(-50%);
+    padding-left: 0.5em;
+    display: flex;
+}
+
+label[for="search-input"] {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 6rem;
+    margin-bottom: .45rem;
+}
+
+input#search-input {
+    font-size: large;
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+}
+
+#search-input-confirm {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#search-input-confirm img {
+    max-width: 2em;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
+
+#corner-links {
+    padding: 0.15rem 0.65rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #D7D6D7AD;
+    font-size: smaller;
+}
+
+#tiles {
+    margin: 1rem auto;
+    top: 400px;
+    left: 36%;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+
+    max-width: 27vw;
+}
+
+#tiles div {
+    margin: 0.4rem;
+    width: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    cursor: pointer;
+
+    font-size: 11px;
+}
+
+#tiles div img {
+    width: 100%;
+    margin: auto;
+    padding: 0.3rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 0.65rem;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#corner-links a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+#corner-links a:hover, #corner-links a:focus {
+    text-decoration: underline;
+}
+
+#corner-links a:not(:last-child):after {
+    margin: 0 0.2rem;
+    content: "|";
+}

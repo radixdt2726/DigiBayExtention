@@ -1,0 +1,16 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "quicktab.html"
+   },
+   "description": "Quicktab removes the new tab site and replaces it with a new background.",
+   "icons": {
+      "128": "img/128x128_quicktab.png",
+      "32": "img/32x32_quicktab.png",
+      "64": "img/64x64_quicktab.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkVFMXTuH26ogpcwHisg6FHkeHYza40tQv6+9auSD+gbDeXGi1RCp1b4IaoUor64KWqfz4obamDzmfw/7Eh4FpJ52hc+ZSeMh47f3Q4fFBisMTaBPcvLooA38Do22wAfV1WNjxeJwYPEfuqJMwlZh5lMKYflTlpVmlhsUyjMBEkSkUzjnPGvb3jCtM9DmMZ2+Qip+oQnWvmm3iuo2A8eysghX9eUcRYRZ2kW9xcTmjw6fK4FAZ9v89+mdQJsi1g+3yiWpIuevrfOTD5u28bJeYHTWZQ0YPxU/wTpP+GRy3n6aG5Y3opaTDwwshgXV/ayRK7nNnQRp5EHwFCWhzDmsCwIDAQAB",
+   "manifest_version": 3,
+   "name": "Quicktab",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
